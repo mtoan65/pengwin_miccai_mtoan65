@@ -1,0 +1,44 @@
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+ 
+2024-06-28 10:45:19.779148: Using torch.compile... 
+2024-06-28 10:45:21.125338: Creating new 5-fold cross-validation split... 
+2024-06-28 10:45:21.126643: Desired fold for training: 0 
+2024-06-28 10:45:21.126712: This split has 64 training and 16 validation cases. 
+2024-06-28 10:45:21.126927: predicting 003 
+2024-06-28 10:45:21.241561: 003, shape torch.Size([1, 156, 159, 213]), rank 0 
+2024-06-28 10:45:42.158138: predicting 005 
+2024-06-28 10:45:42.408523: 005, shape torch.Size([1, 170, 251, 251]), rank 0 
+2024-06-28 10:45:55.761475: predicting 007 
+2024-06-28 10:45:55.976364: 007, shape torch.Size([1, 173, 234, 234]), rank 0 
+2024-06-28 10:46:07.007526: predicting 014 
+2024-06-28 10:46:07.123147: 014, shape torch.Size([1, 163, 142, 198]), rank 0 
+2024-06-28 10:46:14.960364: predicting 021 
+2024-06-28 10:46:15.109442: 021, shape torch.Size([1, 153, 219, 219]), rank 0 
+2024-06-28 10:47:16.476164: predicting 026 
+2024-06-28 10:47:16.668181: 026, shape torch.Size([1, 152, 228, 228]), rank 0 
+2024-06-28 10:47:28.463897: predicting 029 
+2024-06-28 10:47:28.648584: 029, shape torch.Size([1, 165, 220, 220]), rank 0 
+2024-06-28 10:48:11.235524: predicting 056 
+2024-06-28 10:48:11.344761: 056, shape torch.Size([1, 156, 129, 218]), rank 0 
+2024-06-28 10:49:06.402303: predicting 059 
+2024-06-28 10:49:06.613757: 059, shape torch.Size([1, 145, 245, 245]), rank 0 
+2024-06-28 10:49:27.224339: predicting 063 
+2024-06-28 10:49:27.311431: 063, shape torch.Size([1, 148, 106, 226]), rank 0 
+2024-06-28 10:49:45.730050: predicting 065 
+2024-06-28 10:49:45.881373: 065, shape torch.Size([1, 153, 219, 219]), rank 0 
+2024-06-28 10:50:22.682641: predicting 081 
+2024-06-28 10:50:22.764880: 081, shape torch.Size([1, 149, 117, 182]), rank 0 
+2024-06-28 10:50:42.799082: predicting 082 
+2024-06-28 10:50:42.929754: 082, shape torch.Size([1, 170, 136, 228]), rank 0 
+2024-06-28 10:50:59.907931: predicting 089 
+2024-06-28 10:51:00.083718: 089, shape torch.Size([1, 159, 217, 217]), rank 0 
+2024-06-28 10:51:46.337068: predicting 094 
+2024-06-28 10:51:46.531090: 094, shape torch.Size([1, 136, 274, 274]), rank 0 
+2024-06-28 10:52:09.425202: predicting 097 
+2024-06-28 10:52:09.647459: 097, shape torch.Size([1, 164, 246, 246]), rank 0 
+2024-06-28 10:56:26.444068: Validation complete 
+2024-06-28 10:56:26.444159: Mean Validation Dice:  nan 
